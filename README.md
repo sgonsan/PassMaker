@@ -20,6 +20,12 @@ A simple password generator that can be used to generate passwords of any length
 git clone https://github.com/sgonsan/PassMaker
 ```
 
+- **Navigate to the source code**
+
+```bash
+cd PassMaker
+```
+
 - **Compile the source code**
 
 ```bash
