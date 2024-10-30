@@ -57,5 +57,4 @@ Group size for passwords (default is 8): [8]
 Generating 1 passwords of length 8 with 0 special characters and group size 8.
 
 Rp1mSBFm
-
 ```
