@@ -70,6 +70,15 @@ void generatePasswords(int length, int numSpecialChars, int groupSize,
   std::cout << password << std::endl;
 }
 
+/**
+ * @brief Get the user inputs for the password generator.
+ *
+ * @param length Length of the password to generate.
+ * @param numPasswords Number of passwords to generate.
+ * @param numSpecialChars Number of special characters to include.
+ * @param groupSize Group size for passwords.
+ * @param groupDivider Group divider for passwords.
+ */
 void getInputs(int &length, int &numPasswords, int &numSpecialChars,
                int &groupSize, std::string &groupDivider) {
   std::cout << "Length of password to generate (default is 8): ";
