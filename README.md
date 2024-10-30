@@ -58,3 +58,13 @@ Generating 1 passwords of length 8 with 0 special characters and group size 8.
 
 Rp1mSBFm
 ```
+
+The group size can be used to create groups in the password. For example, if the size of the password is 16, the group size is 4 and the group divider is '-', the password will be generated as `abcd-efgh-ijkl-mnop`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [README Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
