@@ -29,7 +29,7 @@ cd PassMaker
 - **Compile the source code**
 
 ```bash
-g++ -o passmaker passmaker.cpp
+g++ -o passmaker code/passmaker.cpp
 ```
 
 - **Run the program**
@@ -45,8 +45,8 @@ The program will ask for the length of the password, the amount of special chara
 The default values are:
 
 - Length of password: 8
-- Number of special characters: 0
 - Number of passwords: 1
+- Number of special characters: 0
 - Group size: 8 (complete password)
 - Group divider: '-'
 
