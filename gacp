@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# This script is used to commit and push changes to the current branch
+
+# Check if there are any changes to commit
+
+if [[ -n $(git status -s) ]]; then
+  # Commit changes
+  git add .
+  git commit -m "$1"
+  git push origin $(git rev-parse --abbrev-ref HEAD)
+else
+  echo "No changes to commit"
+fi
